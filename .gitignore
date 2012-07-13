@@ -5,3 +5,4 @@
 # local/dynamic files
 log/
 tmp/
+.sass-cache
