@@ -12,8 +12,9 @@ end
 set :haml, :format => :html5
 
 get '/' do
-  return "Hello, world!"
+  "Hello, world"
 end
+
 
 # get '/s3/*' do
 #   redirect 'https://(target server)/s3/' + params[:splat][0]
