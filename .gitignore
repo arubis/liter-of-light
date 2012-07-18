@@ -7,3 +7,6 @@ log/
 tmp/
 .sass-cache
 .sass-cache/*
+
+# Annoying Apple crap
+.DS_*

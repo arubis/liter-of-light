@@ -1,0 +1,28 @@
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container-fluid
+      %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand{:href => "#"} Project name
+      .btn-group.pull-right
+        %a.btn.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+          %i.icon-user
+          Username
+          %span.caret
+        %ul.dropdown-menu
+          %li
+            %a{:href => "#"} Profile
+          %li.divider
+          %li
+            %a{:href => "#"} Sign Out
+      .nav-collapse
+        %ul.nav
+          %li.active
+            %a{:href => "#"} Home
+          %li
+            %a{:href => "#about"} About
+          %li
+            %a{:href => "#contact"} Contact
+      / /.nav-collapse

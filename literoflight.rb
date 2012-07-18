@@ -9,12 +9,14 @@ configure(:development) do |c|
 end
 
 # configure
-set :haml, :format => :html5
+set :haml, :format => :html5, :layout => true
+   # n.b. :layout => true renders haml docs through layout.haml if it exists
+   # and can be redirected to another symbol for a different layout
+   # or "false" for none
 
-get '/' do
-  return haml :index
+get '/bootstrap' do
+  return haml :bootstrap, :layout => :layout_bootstrap
 end
-
 
 # get '/s3/*' do
 #   redirect 'https://(target server)/s3/' + params[:splat][0]
