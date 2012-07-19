@@ -10,3 +10,7 @@ tmp/
 
 # Annoying Apple crap
 .DS_*
+
+# project management
+subl
+subl/*

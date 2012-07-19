@@ -1,0 +1,16 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title= locals[:title] + "Solar Bottle Bulbs/The Gambia"
+      %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+      %meta{:content => "", :name => "description"}
+      %meta{:content => "Dylan Fitzgerald", :name => "author"}
+
+    = haml :_style_header
+
+  %body
+
+    %div= yield
+
+    %div= haml :_javascripts

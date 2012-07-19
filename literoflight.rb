@@ -14,8 +14,16 @@ set :haml, :format => :html5, :layout => true
    # and can be redirected to another symbol for a different layout
    # or "false" for none
 
+get '/' do
+  "Hello, world!"
+end
+
+get '/why' do
+  haml :main, :locals => { :text => markdown(:why), :title => "why | " }
+end
+
 get '/bootstrap' do
-  return haml :bootstrap, :layout => :layout_bootstrap
+  haml :bootstrap, :layout => :layout_bootstrap
 end
 
 # get '/s3/*' do
