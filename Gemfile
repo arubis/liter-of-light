@@ -10,6 +10,7 @@ gem "sass"
 gem 'heroku'
 gem 'compass'
 gem "bootstrap-sass"
+gem "foreman"
 
 group :test, :development do
   gem "sinatra-reloader"
