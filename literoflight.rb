@@ -2,11 +2,11 @@
 require 'sinatra'
 require 'haml'
 
-# Install this gem first!
-configure(:development) do |c|
-  require "sinatra/reloader"
-  c.also_reload "*.rb"
-end
+# # Install this gem first!
+# configure(:development) do |c|
+#   require "sinatra/reloader"
+#   c.also_reload "*.rb"
+# end
 
 # configure
 set :haml, :format => :html5, :layout => true
