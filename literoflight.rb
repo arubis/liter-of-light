@@ -15,11 +15,11 @@ set :haml, :format => :html5, :layout => true
    # or "false" for none
 
 get '/' do
-  "Hello, world!"
+  haml :main, :locals => { :text => markdown(:main), :title => "" }
 end
 
 get '/why' do
-  haml :main, :locals => { :text => markdown(:why), :title => "why | " }
+  haml :why, :locals => { :text => markdown(:why), :title => "why | " }
 end
 
 get '/bootstrap' do

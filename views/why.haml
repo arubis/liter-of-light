@@ -21,9 +21,9 @@
           /       %a{:href => "#"} Sign Out
           .nav-collapse
             %ul.nav
-              %li.active
-                %a{:href => "#"} Home
               %li
+                %a{:href => "#"} Home
+              %li.active
                 %a{:href => "#"} Why Bottle Bulbs?
               %li
                 %a{:href => "#"} How To
@@ -37,16 +37,19 @@
                 %a{:href => "#"} Inspiration
           / /.nav-collapse
   .row
-    .span4
-      %p &nbsp;
-    .span8
-      .hero-unit
-        %img.pull-right{:src => "/images/main_bulb.jpeg", :width => "200px"}
-        %h1 Safe.
-        %h1 Clean.
-        %h1 Cheap.
-        %h1 Local.
-        %h1#light Light.
-        %br
-        %p
-          Lorem ipsum labore veniam sunt magna ad enim laborum ea enim ex officia dolor consequat do mollit in ut cillum esse nisi tempor Duis nostrud consequat ad sed qui minim cillum ex quis adipisicing eiusmod adipisicing veniam ex sint voluptate enim proident ad et veniam veniam magna enim officia dolore officia exercitation irure dolore sint esse ad culpa proident sit ut do adipisicing voluptate ut ea ex laborum deserunt sit sint in dolor aute ex et incididunt ut in anim fugiat aliqua ut labore reprehenderit sint tempor magna sint sint aute magna tempor amet nulla in in sint nostrud ad laborum cillum sit dolor officia in amet eu eiusmod aliquip do eu irure sint consectetur eiusmod culpa officia proident occaecat qui aute ullamco dolore cillum aute labore laboris anim dolore pariatur. 
+    .span3
+      .well.sidebar-nav
+        %ul.nav.nav-list
+          %li.nav-header Sidebar
+          %li.active 
+            %a{:href => "#"} WHY IS THE WHAT
+          %li 
+            %a{:href => "#"} never mind
+          %li 
+            %a{:href => "#"} other stuff
+        / ul.nav.nav-list
+      / /well.sidebar-nav
+    / /span3
+    .span9
+  
+      %p= locals[:text]
