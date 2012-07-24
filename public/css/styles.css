@@ -6034,7 +6034,6 @@ a.label:hover, a.badge:hover {
 }
 /* line 10, ../../sass/styles.sass */
 #light a:hover {
-  color: white;
   text-shadow: yellow 0em 0em 0.7em;
 }
 
@@ -6054,8 +6053,12 @@ h1 a:hover {
   color: grey;
   text-decoration: none;
 }
+/* line 24, ../../sass/styles.sass */
+h1 a:hover #light {
+  color: orange;
+}
 
-/* line 25, ../../sass/styles.sass */
+/* line 28, ../../sass/styles.sass */
 #main-logo {
   position: absolute;
   width: 100%;
@@ -6063,7 +6066,7 @@ h1 a:hover {
   top: 69px;
 }
 
-/* line 31, ../../sass/styles.sass */
+/* line 34, ../../sass/styles.sass */
 #logo {
   position: absolute;
   left: 50%;
