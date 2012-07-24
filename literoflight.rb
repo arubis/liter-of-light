@@ -8,10 +8,12 @@ set :haml, :format => :html5, :layout => true
    # n.b. :layout => true renders haml docs through layout.haml if it exists
    # and can be redirected to another symbol for a different layout
    # or "false" for none
+
+# set up basic caching
+set :static_cache_control, [:public, :max_age => 300]
 before do
   cache_control :public, :must_revalidate, :max_age => 300
 end
-set :static_cache_control, [:public, :max_age => 300]
 
 get '/' do
   haml :main, :locals => { :text => markdown(:main), :title => "" }

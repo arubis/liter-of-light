@@ -6027,38 +6027,76 @@ a.label:hover, a.badge:hover {
     overflow: visible !important;
   }
 }
-/* line 7, ../../sass/styles.sass */
-#light {
+/* line 15, ../../sass/styles.sass */
+h1.safe {
+  color: red;
+}
+/* line 17, ../../sass/styles.sass */
+h1.clean {
+  color: green;
+}
+/* line 19, ../../sass/styles.sass */
+h1.cheap {
+  color: grey;
+}
+/* line 21, ../../sass/styles.sass */
+h1.local {
+  color: blue;
+}
+/* line 23, ../../sass/styles.sass */
+h1.light {
+  color: yellow;
+  text-shadow: black 0.05em 0.05em 0.1em;
+}
+
+/* line 27, ../../sass/styles.sass */
+.hero-unit h1, a {
+  color: black;
+  text-decoration: none;
+}
+/* line 30, ../../sass/styles.sass */
+.hero-unit h1 .light, a .light {
   color: white;
   text-shadow: black 0em 0em 0.7em;
 }
-/* line 10, ../../sass/styles.sass */
-#light a:hover {
+/* line 33, ../../sass/styles.sass */
+.hero-unit h1:hover, a:hover {
+  text-decoration: none;
+}
+/* line 35, ../../sass/styles.sass */
+.hero-unit h1:hover.safe, a:hover.safe {
+  color: red;
+}
+/* line 37, ../../sass/styles.sass */
+.hero-unit h1:hover.clean, a:hover.clean {
+  color: green;
+}
+/* line 39, ../../sass/styles.sass */
+.hero-unit h1:hover.cheap, a:hover.cheap {
+  color: grey;
+}
+/* line 41, ../../sass/styles.sass */
+.hero-unit h1:hover.local, a:hover.local {
+  color: blue;
+}
+/* line 43, ../../sass/styles.sass */
+.hero-unit h1:hover.light, a:hover.light {
+  color: yellow;
   text-shadow: yellow 0em 0em 0.7em;
 }
 
-/* line 14, ../../sass/styles.sass */
+/* line 47, ../../sass/styles.sass */
+img.summary {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 51, ../../sass/styles.sass */
 .footer {
   text-align: center;
 }
 
-/* line 17, ../../sass/styles.sass */
-h1 a {
-  color: black;
-  text-decoration: none;
-}
-
-/* line 21, ../../sass/styles.sass */
-h1 a:hover {
-  color: grey;
-  text-decoration: none;
-}
-/* line 24, ../../sass/styles.sass */
-h1 a:hover #light {
-  color: orange;
-}
-
-/* line 28, ../../sass/styles.sass */
+/* line 54, ../../sass/styles.sass */
 #main-logo {
   position: absolute;
   width: 100%;
@@ -6066,7 +6104,7 @@ h1 a:hover #light {
   top: 69px;
 }
 
-/* line 34, ../../sass/styles.sass */
+/* line 60, ../../sass/styles.sass */
 #logo {
   position: absolute;
   left: 50%;
