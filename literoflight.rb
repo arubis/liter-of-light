@@ -1,6 +1,7 @@
 # literoflight.rb
 require 'sinatra'
 require 'haml'
+require 'kramdown'
 
 # # Install this gem first!
 # configure(:development) do |c|
