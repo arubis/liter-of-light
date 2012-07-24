@@ -1,15 +1,16 @@
 .container-fluid
   .row
-    %p 
-      / [if lte IE 8]><span style="filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); display: inline-block;"
-      .span{:style => "-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -khtml-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); display: inline-block;"} &copy;
-      /[if lte IE 8]></span>
-      /[endif]
-      2012 dylan fitzgerald
-    %p 
-      creative commons notice & 
-      %a{:href => "#"} link
-    %p
-      %a{:href => "#"} fork this site on github
-    %p
-      %a{:href => "#"} colophon
+    .span4.offset4.footer.well
+      %p 
+        / [if lte IE 8]><span style="filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); display: inline-block;"
+        %span{:style => "-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -khtml-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); display: inline-block;"} &copy;
+
+        /[if lte IE 8]></span>
+        2012 dylan fitzgerald
+      %p 
+        creative commons notice & 
+        %a{:href => "#"} link
+      %p
+        %a{:href => "https://github.com/arubis/liter-of-light"} fork this site on github
+      %p
+        %a{:href => "#"} colophon

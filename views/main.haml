@@ -1,5 +1,9 @@
-.container-fluid
-  .row
+.container
+  .row-fluid
+    .nav{:id => "logo"}
+      %a{:href => "#"} Logo Goes Here
+
+  .row-fluid
     .navbar
       .navbar-inner
         .container-fluid
@@ -20,15 +24,16 @@
           /     %li
           /       %a{:href => "#"} Sign Out
           .nav-collapse
-            %ul.nav
+            %ul.nav.pull-left
               %li.active
                 %a{:href => "#"} Home
-              %li
-                %a{:href => "#"} Why Bottle Bulbs?
+              / %li
+              /   %a{:href => "#"} Why Bottle Bulbs?
               %li
                 %a{:href => "#"} How To
               %li
-                %a{:href => "#"} Fizziks!
+                %a{:href => "#"} Science!!!
+            %ul.nav.pull-right
               %li
                 %a{:href => "#"} On The Ground
               %li
@@ -37,16 +42,53 @@
                 %a{:href => "#"} Inspiration
           / /.nav-collapse
   .row
-    .span3
-      %p &nbsp;
-    .span8
+    .span8.offset3
       .hero-unit
         %img.pull-right{:src => "/images/main_bulb.jpeg", :width => "200px"}
-        %h1 Safe.
-        %h1 Clean.
-        %h1 Cheap.
-        %h1 Local.
-        %h1#light Light.
+        %h1 
+          %a{:href => "#safe"} Safe.
+        %h1 
+          %a{:href => "#clean"} Clean.
+        %h1 
+          %a{:href => "#cheap"} Cheap.
+        %h1 
+          %a{:href => "#local"} Local.
+        %h1#light 
+          %a{:href => "#light", :id => "light"} Light.
         %br
         %p
-          Lorem ipsum labore veniam sunt magna ad enim laborum ea enim ex officia dolor consequat do mollit in ut cillum esse nisi tempor Duis nostrud consequat ad sed qui minim cillum ex quis adipisicing eiusmod adipisicing veniam ex sint voluptate enim proident ad et veniam veniam magna enim officia dolore officia exercitation irure dolore sint esse ad culpa proident sit ut do adipisicing voluptate ut ea ex laborum deserunt sit sint in dolor aute ex et incididunt ut in anim fugiat aliqua ut labore reprehenderit sint tempor magna sint sint aute magna tempor amet nulla in in sint nostrud ad laborum cillum sit dolor officia in amet eu eiusmod aliquip do eu irure sint consectetur eiusmod culpa officia proident occaecat qui aute ullamco dolore cillum aute labore laboris anim dolore pariatur. 
+          Lorem ipsum dolore tempor in amet in reprehenderit aliqua consequat sint elit ex commodo amet cupidatat veniam labore laborum sed voluptate tempor velit ex nisi tempor cillum non ex anim laboris mollit laborum esse Duis nostrud incididunt proident aute in officia non occaecat proident in nulla aute proident sit labore eiusmod minim eiusmod dolor proident officia tempor sed occaecat cillum aute Excepteur id nulla nostrud eu sint ut nisi in non id laborum cupidatat commodo non proident incididunt elit velit sint est sed in officia qui adipisicing ut minim minim nisi eiusmod anim sit proident irure occaecat aliqua fugiat nulla ad et ex ullamco reprehenderit. 
+  .row
+    .span3.offset2
+      %h1
+        %a{:name => "safe"} 
+        Safe.
+      %p
+        Lorem ipsum pariatur occaecat incididunt eiusmod ullamco sed mollit sed deserunt do elit qui pariatur occaecat anim proident sunt exercitation commodo Excepteur dolore Ut incididunt dolore aliquip esse ut fugiat do ut commodo tempor irure consectetur magna. 
+
+    .span3.offset1
+      %h1
+        %a{:name => "clean"} 
+        Clean.
+      %p
+        Lorem ipsum deserunt officia sit laborum est deserunt et ullamco Excepteur minim sunt id in nulla nostrud fugiat dolore sunt Duis velit elit quis fugiat adipisicing in occaecat ad ex sit proident proident proident id aliquip Ut. 
+
+  .row
+    .span3.offset2
+      %h1
+        %a{:name => "cheap"} 
+        Cheap.
+      Lorem ipsum nulla reprehenderit consectetur dolor eu aute dolor nisi anim adipisicing esse mollit aliquip voluptate consequat do tempor exercitation dolor voluptate in irure laborum aliquip Excepteur cillum fugiat in aliquip do voluptate do irure dolor est tempor laborum officia elit sunt ullamco proident laborum ad. 
+
+    .span3.offset1
+      %h1
+        %a{:name => "local"} 
+        Local.
+      Lorem ipsum proident sed consequat irure veniam fugiat sint aliquip aliqua voluptate exercitation exercitation nostrud deserunt esse in ea id dolore id magna reprehenderit nisi. 
+
+  .row
+    .span5.offset3
+      %h1
+        %a{:name => "light"}
+        Light.
+      Lorem ipsum Duis voluptate culpa dolore magna do Ut ea enim pariatur nulla proident sint proident adipisicing dolor laborum amet amet do dolor in consectetur tempor elit amet sit in nostrud qui incididunt occaecat id Excepteur reprehenderit velit consequat velit adipisicing pariatur ad consectetur occaecat qui velit aute qui reprehenderit nisi eiusmod officia Excepteur sit culpa in irure in amet eiusmod dolor qui officia quis fugiat sunt eiusmod ullamco consequat aliquip officia exercitation sunt in non Excepteur culpa aliqua veniam et pariatur Duis et nostrud exercitation pariatur qui exercitation ut aute Duis labore in culpa ullamco aliquip id dolore eiusmod qui ut eiusmod sed velit tempor culpa in mollit reprehenderit proident exercitation incididunt qui cupidatat fugiat ullamco aute dolore ut minim incididunt.
