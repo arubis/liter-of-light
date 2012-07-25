@@ -1,7 +1,7 @@
 .container
   .row-fluid
     .nav{:id => "logo"}
-      %a{:href => "#"} Logo Goes Here
+      %a{:href => "#", :style => "color: orange; shadow: green 1em 1em;"} Logo Goes Here
 
   .row-fluid
     .navbar
@@ -43,8 +43,8 @@
           / /.nav-collapse
   .row
     .span8.offset3
-      .hero-unit
-        %img.pull-right{:src => "/images/main_bulb.jpeg", :width => "200px"}
+      .hero-unit.mainpage
+        %img#hero-image.pull-right{:src => "/images/main_bulb.jpeg"}
 
         %h1.safe
           %a.safe{:href => "#safe"} Safe.
@@ -59,45 +59,44 @@
         %br
         %p
           Lorem ipsum dolore tempor in amet in reprehenderit aliqua consequat sint elit ex commodo amet cupidatat veniam labore laborum sed voluptate tempor velit ex nisi tempor cillum non ex anim laboris mollit laborum esse Duis nostrud incididunt proident aute in officia non occaecat proident in nulla aute proident sit labore eiusmod minim eiusmod dolor proident officia tempor sed occaecat cillum aute Excepteur id nulla nostrud eu sint ut nisi in non id laborum cupidatat commodo non proident incididunt elit velit sint est sed in officia qui adipisicing ut minim minim nisi eiusmod anim sit proident irure occaecat aliqua fugiat nulla ad et ex ullamco reprehenderit. 
+
+  .summary
     .row
-      .span3.offset1
+      .span5.offset1
+        %img.pull-right{src: "images/safe.jpg"}
         %h1.safe
           %a{:name => "safe"} 
           Safe.
         %p
           = markdown :'main/safe'
-      .span2
-        %img.summary{src: "images/safe.jpg"}
 
-      .span3
+      .span5
+        %img.pull-right{src: "images/clean.jpg"}
         %h1.clean
           %a{:name => "clean"} 
           Clean.
         %p
           = markdown :'main/clean'
-      .span2
-        %img.summary{src: "images/clean.jpg"}
+      %hr/
         
     .row
-      .span2.offset1
-        %img.summary{src: "images/cheap.jpg"}
-      .span3
+      .span5.offset1
+        %img.pull-left{src: "images/cheap.jpg"}
         %h1.cheap
           %a{:name => "cheap"} 
           Cheap.
         = markdown :'main/cheap'
 
-      .span2
-        %img.summary{src: "images/local.jpg"}
-      .span3
+      .span5
+        %img.pull-left{src: "images/local.jpg"}
         %h1.local
           %a{:name => "local"} 
           Local.
         = markdown :'main/local'
 
-  .row
-    .span5.offset3
-      %h1.light
-        %a{:name => "light"}
-        Light.
-      = markdown :'main/light'
+    .row
+      .span5.offset3
+        %h1.light
+          %a{:name => "light"}
+          Light.
+        = markdown :'main/light'

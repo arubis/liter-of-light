@@ -6086,17 +6086,32 @@ h1.light {
 }
 
 /* line 47, ../../sass/styles.sass */
-img.summary {
-  width: 100%;
-  height: 100%;
+#hero-image {
+  max-width: 40%;
+  max-height: 300px;
+  clear: both;
 }
 
-/* line 51, ../../sass/styles.sass */
+/* line 53, ../../sass/styles.sass */
+.summary img {
+  width: 33%;
+  max-width: 160px;
+}
+/* line 56, ../../sass/styles.sass */
+.summary img.pull-left {
+  margin-right: 1em;
+}
+/* line 58, ../../sass/styles.sass */
+.summary img.pull-right {
+  margin-left: 1em;
+}
+
+/* line 62, ../../sass/styles.sass */
 .footer {
   text-align: center;
 }
 
-/* line 54, ../../sass/styles.sass */
+/* line 65, ../../sass/styles.sass */
 #main-logo {
   position: absolute;
   width: 100%;
@@ -6104,7 +6119,7 @@ img.summary {
   top: 69px;
 }
 
-/* line 60, ../../sass/styles.sass */
+/* line 71, ../../sass/styles.sass */
 #logo {
   position: absolute;
   left: 50%;
