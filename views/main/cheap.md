@@ -1,5 +1,1 @@
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+Purchasing every component of construction new from a retail store, a single Solar Bottle Bulb costs under 50 Dalasis (US$2). And reclaiming a plastic bottle from the waste stream reduces that by more than half.

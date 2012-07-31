@@ -1,5 +1,1 @@
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+No smoke, no fire, no batteries. Using Solar Bottle Bulbs can remove plastic bottles from the waste stream. And since they use only sunlight, there's no future carbon imprint.
