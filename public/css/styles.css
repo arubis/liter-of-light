@@ -6124,9 +6124,17 @@ h1.light {
 
 /* line 74, ../../sass/styles.sass */
 #logo {
-  position: absolute;
+  position: fixed;
+  top: 20px;
   left: 50%;
   margin-left: -90px;
   width: 181px;
   text-align: center;
+  z-index: 1040;
+}
+
+/* line 83, ../../sass/styles.sass */
+.navbar-fixed-top .navbar-inner {
+  padding-left: 3em;
+  padding-right: 3em;
 }
