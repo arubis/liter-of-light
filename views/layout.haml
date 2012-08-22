@@ -7,9 +7,11 @@
       %meta{:content => "", :name => "description"}
       %meta{:content => "Dylan Fitzgerald", :name => "author"}
 
-    = haml :_style_header
+    = haml :_styles
 
   %body
+
+    = haml :_header
 
     %div= yield
 
