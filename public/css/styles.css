@@ -6055,66 +6055,67 @@ h1.local {
 h1.light {
   color: yellow;
   text-shadow: black 0.05em 0.05em 0.1em;
+  line-height: 60px;
 }
 
-/* line 34, ../../sass/styles.sass */
+/* line 38, ../../sass/styles.sass */
 .hero-unit h1, a {
   color: black;
   text-decoration: none;
 }
-/* line 37, ../../sass/styles.sass */
+/* line 41, ../../sass/styles.sass */
 .hero-unit h1 .light, a .light {
   color: white;
   text-shadow: black 0em 0em 0.7em;
 }
-/* line 40, ../../sass/styles.sass */
+/* line 44, ../../sass/styles.sass */
 .hero-unit h1:hover, a:hover {
   text-decoration: none;
 }
-/* line 42, ../../sass/styles.sass */
+/* line 46, ../../sass/styles.sass */
 .hero-unit h1:hover.safe, a:hover.safe {
   color: red;
 }
-/* line 44, ../../sass/styles.sass */
+/* line 48, ../../sass/styles.sass */
 .hero-unit h1:hover.clean, a:hover.clean {
   color: green;
 }
-/* line 46, ../../sass/styles.sass */
+/* line 50, ../../sass/styles.sass */
 .hero-unit h1:hover.cheap, a:hover.cheap {
   color: grey;
 }
-/* line 48, ../../sass/styles.sass */
+/* line 52, ../../sass/styles.sass */
 .hero-unit h1:hover.local, a:hover.local {
   color: blue;
 }
-/* line 50, ../../sass/styles.sass */
+/* line 54, ../../sass/styles.sass */
 .hero-unit h1:hover.light, a:hover.light {
   color: yellow;
   text-shadow: yellow 0em 0em 0.7em;
 }
 
-/* line 54, ../../sass/styles.sass */
+/* line 58, ../../sass/styles.sass */
 #hero-image {
   max-width: 40%;
   max-height: 300px;
   clear: both;
 }
 
-/* line 60, ../../sass/styles.sass */
+/* line 64, ../../sass/styles.sass */
 .summary img {
   width: 33%;
   max-width: 160px;
 }
-/* line 63, ../../sass/styles.sass */
+/* line 67, ../../sass/styles.sass */
 .summary img.pull-left {
   margin-right: 1em;
 }
-/* line 65, ../../sass/styles.sass */
+/* line 69, ../../sass/styles.sass */
 .summary img.pull-right {
   margin-left: 1em;
 }
 
-/* line 68, ../../sass/styles.sass */
+/* line 72, ../../sass/styles.sass */
 #main-logo {
   position: absolute;
   width: 100%;
@@ -6122,7 +6123,7 @@ h1.light {
   top: 69px;
 }
 
-/* line 74, ../../sass/styles.sass */
+/* line 78, ../../sass/styles.sass */
 #logo {
   position: fixed;
   top: 20px;
@@ -6133,7 +6134,7 @@ h1.light {
   z-index: 1040;
 }
 
-/* line 83, ../../sass/styles.sass */
+/* line 87, ../../sass/styles.sass */
 .navbar-fixed-top .navbar-inner {
   padding-left: 3em;
   padding-right: 3em;
