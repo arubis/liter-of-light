@@ -33,14 +33,14 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="8" Type="Text" Created="2012-07-21 15:37:30 +0000" Modified="2012-07-21 15:38:45 +0000">
+                        <BinderItem ID="8" Type="Text" Created="2012-07-21 15:37:30 +0000" Modified="2012-09-21 18:06:15 +0000">
                             <Title>Materials</Title>
                             <MetaData>
                                 <StatusID>0</StatusID>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,0</TextSelection>
+                                <TextSelection>305,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem ID="9" Type="Text" Created="2012-07-21 15:37:34 +0000" Modified="2012-07-21 15:38:46 +0000">
@@ -93,6 +93,46 @@
                     </MetaData>
                     <TextSettings>
                         <TextSelection>286,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="21" Type="Text" Created="2012-09-24 16:52:37 +0000" Modified="2012-09-28 11:46:18 +0000">
+                    <Title>Science!</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>206,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="22" Type="Text" Created="2012-09-28 11:46:12 +0000" Modified="2012-09-28 11:48:58 +0000">
+                    <Title>About</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="23" Type="Text" Created="2012-09-28 11:48:41 +0000" Modified="2012-09-28 11:49:47 +0000">
+                    <Title>Inspiration</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>133,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="24" Type="Text" Created="2012-09-28 11:50:22 +0000" Modified="2012-09-28 11:52:25 +0000">
+                    <Title>On The Ground</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>79,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -246,7 +286,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-07-21 13:28:04 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2012-07-31 13:24:23 +0000"></PreviousSession>
+        <PreviousSession Words="75" Characters="488" Date="2012-09-28 11:45:17 +0000"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
