@@ -1,84 +1,73 @@
-/*
-Syntax error: File to import not found or unreadable: blueprint.
-              Load paths:
-                /Users/arubis/dev/liter_of_light/sass
-                /Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets
-                /Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/frameworks/compass/stylesheets
-                /Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/bootstrap-sass-2.0.4.0/vendor/assets/stylesheets
-                Compass::SpriteImporter
-        on line 1 of /Users/arubis/dev/liter_of_light/sass/print.sass
-
-1: /Users/arubis/dev/liter_of_light/sass/print.sass
-
-Backtrace:
-/Users/arubis/dev/liter_of_light/sass/print.sass:1
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/import_node.rb:64:in `rescue in import'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/import_node.rb:42:in `import'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/import_node.rb:25:in `imported_file'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:149:in `rescue in visit_import'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:154:in `visit_import'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/tree/root_node.rb:20:in `render'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/engine.rb:300:in `_render'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/sass-3.1.20/lib/sass/engine.rb:247:in `render'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:95:in `block (4 levels) in perform'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/path.rb:39:in `delete'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/state/directory.rb:32:in `block in deleted'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/state/directory.rb:31:in `each'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/state/directory.rb:31:in `deleted'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/state/directory.rb:16:in `refresh'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:30:in `block in temporary_multipath_handler'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:27:in `each'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:17:in `block (2 levels) in run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:16:in `each'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:16:in `block in run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/rb-fsevent-0.9.1/lib/rb-fsevent/fsevent.rb:43:in `call'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/rb-fsevent-0.9.1/lib/rb-fsevent/fsevent.rb:43:in `run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/backends/rbfsevent.rb:20:in `run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/bin/compass:44:in `call'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/bin/compass:19:in `load'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/bin/compass:19:in `<main>'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/bin/ruby_noexec_wrapper:14:in `eval'
-/Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/bin/ruby_noexec_wrapper:14:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: blueprint.\A               Load paths:\A                 /Users/arubis/dev/liter_of_light/sass\A                 /Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/arubis/.rvm/gems/ruby-1.9.3-p194@LiterOfLight/gems/bootstrap-sass-2.0.4.0/vendor/assets/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of /Users/arubis/dev/liter_of_light/sass/print.sass\A \A 1: /Users/arubis/dev/liter_of_light/sass/print.sass"; }
+/* line 7, ../../sass/print.sass */
+body.bp {
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: black;
+  background: none;
+  font-size: 10pt;
+}
+/* line 45, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp .container {
+  background: none;
+}
+/* line 47, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp hr {
+  background: #cccccc;
+  color: #cccccc;
+  width: 100%;
+  height: 2px;
+  margin: 2em 0;
+  padding: 0;
+  border: none;
+}
+/* line 55, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp hr.space {
+  background: white;
+  color: white;
+}
+/* line 58, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp h1, body.bp h2, body.bp h3, body.bp h4, body.bp h5, body.bp h6 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+/* line 60, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp code {
+  font-size: 0.9em;
+  font-family: "andale mono", "lucida console", monospace;
+}
+/* line 65, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp a img {
+  border: none;
+}
+/* line 68, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp a:link, body.bp a:visited {
+  background: transparent;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/* line 72, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp p img.top {
+  margin-top: 0;
+}
+/* line 74, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp blockquote {
+  margin: 1.5em;
+  padding: 1em;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/* line 79, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp .small {
+  font-size: 0.9em;
+}
+/* line 81, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp .large {
+  font-size: 1.1em;
+}
+/* line 83, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp .quiet {
+  color: #999999;
+}
+/* line 85, /Users/arubis/.rvm/gems/ruby-1.9.3-p286@LiterOfLight/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+body.bp .hide {
+  display: none;
+}
