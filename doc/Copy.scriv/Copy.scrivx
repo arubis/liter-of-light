@@ -102,7 +102,7 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>206,0</TextSelection>
+                        <TextSelection>248,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem ID="22" Type="Text" Created="2012-09-28 11:46:12 +0000" Modified="2012-09-28 11:48:58 +0000">
@@ -112,7 +112,7 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>210,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem ID="23" Type="Text" Created="2012-09-28 11:48:41 +0000" Modified="2012-09-28 11:49:47 +0000">
@@ -132,8 +132,63 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>79,0</TextSelection>
+                        <TextSelection>27,0</TextSelection>
                     </TextSettings>
+                </BinderItem>
+                <BinderItem ID="25" Type="Folder" Created="2012-11-02 11:30:30 +0000" Modified="2012-11-02 11:54:40 +0000">
+                    <Title>Kembujeh</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <SelectedSubdocumentIDs>32</SelectedSubdocumentIDs>
+                    </CorkboardAndOutliner>
+                    <Children>
+                        <BinderItem ID="29" Type="Text" Created="2012-11-02 11:54:51 +0000" Modified="2012-11-02 11:55:55 +0000">
+                            <Title>Main Text</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>589,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="30" Type="Text" Created="2012-11-02 11:54:54 +0000" Modified="2012-11-02 11:56:49 +0000">
+                            <Title>Before</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>69,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="31" Type="Text" Created="2012-11-02 11:54:54 +0000" Modified="2012-11-02 11:57:36 +0000">
+                            <Title>After</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>90,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="32" Type="Text" Created="2012-11-02 11:54:54 +0000" Modified="2012-11-02 11:57:36 +0000">
+                            <Title>Full Classroom</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>96,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -157,6 +212,41 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>pdf</FileExtension>
                         <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <MediaSettings>
+                        <CurrentPDFPage>0</CurrentPDFPage>
+                    </MediaSettings>
+                </BinderItem>
+                <BinderItem ID="26" Type="Image" Created="2012-11-02 11:49:46 +0000" Modified="2012-11-02 11:49:46 +0000">
+                    <Title>kembujeh-after</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>jpg</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                    </MetaData>
+                    <MediaSettings>
+                        <ImageScaleFactor>1.0</ImageScaleFactor>
+                        <ImageRotation>None</ImageRotation>
+                        <ImageScalesProportionally>No</ImageScalesProportionally>
+                    </MediaSettings>
+                </BinderItem>
+                <BinderItem ID="27" Type="Image" Created="2012-11-02 11:50:19 +0000" Modified="2012-11-02 11:50:19 +0000">
+                    <Title>kembujeh-before</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>jpg</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                    </MetaData>
+                </BinderItem>
+                <BinderItem ID="28" Type="Image" Created="2012-11-02 11:48:45 +0000" Modified="2012-11-02 11:48:45 +0000">
+                    <Title>kembujeh-classroom-full</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>jpg</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
                     </MetaData>
                 </BinderItem>
             </Children>
@@ -286,7 +376,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-07-21 13:28:04 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2012-10-01 23:55:22 +0000"></PreviousSession>
+        <PreviousSession Words="127" Characters="844" Date="2012-11-02 09:30:33 +0000"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
