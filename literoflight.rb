@@ -10,10 +10,10 @@ set :haml, :format => :html5, :layout => true
    # or "false" for none
 
 # set up basic caching
-set :static_cache_control, [:public, :max_age => 300]
-before do
-  cache_control :public, :must_revalidate, :max_age => 300
-end
+#set :static_cache_control, [:public, :max_age => 300]
+#before do
+#  cache_control :public, :must_revalidate, :max_age => 300
+#end
 
 get '/' do
   haml :main, :locals => { :text => markdown(:main), :title => "" }
@@ -21,6 +21,10 @@ end
 
 get '/why' do
   haml :why, :locals => { :text => markdown(:why), :title => "why | " }
+end
+
+get '/gallery' do
+  haml :gallery, :locals => { :title => "gallery | "}
 end
 
 get '/bootstrap' do
