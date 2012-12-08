@@ -1,4 +1,10 @@
 .container
   .row
-    .span6.offset1
+    .hero-unit
+      %h1 On The Ground
+      %img{:src => '/images/sunburst.jpg', :alt => 'Chief Carpenter Pa Demba silhouetted by a sunburst'}
+      %p a whole snippit of introductory text. get excited!
+    .span4.offset1
       = haml :'gallery/kembujeh'
+    .span4.offset2
+      = haml :'gallery/omars'
