@@ -110,3 +110,28 @@ h1.light {
   padding-left: 3em;
   padding-right: 3em;
 }
+
+/* line 85, ../../sass/user.sass */
+.gallery-image {
+  margin: 0px 0px 30px 0px;
+}
+
+/* line 88, ../../sass/user.sass */
+.text-overlay {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.5em;
+  width: 50%;
+}
+/* line 95, ../../sass/user.sass */
+.text-overlay h1 {
+  color: white;
+  font-size: 60px;
+  line-height: 60px;
+}
+/* line 99, ../../sass/user.sass */
+.text-overlay h1 {
+  color: white;
+}

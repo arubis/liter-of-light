@@ -24,8 +24,11 @@ get '/why' do
 end
 
 get '/gallery' do
-  haml :gallery, :locals => { :title => "gallery | "}
+  haml :gallery, :locals => { :title => "on location | "}
 end
+
+get '/colophon' do
+  haml :colophon, :locals => { title: "colophon | " }
 
 get '/bootstrap' do
   haml :bootstrap, :layout => :layout_bootstrap

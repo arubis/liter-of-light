@@ -1,0 +1,1 @@
+Omar's new kitchen, replete with light from eight Bottle Bulbs.
