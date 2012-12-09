@@ -28,7 +28,8 @@ get '/gallery' do
 end
 
 get '/colophon' do
-  haml :colophon, :locals => { title: "colophon | " }
+  haml :colophon, :locals => { :title => "colophon | " }
+end
 
 get '/bootstrap' do
   haml :bootstrap, :layout => :layout_bootstrap
