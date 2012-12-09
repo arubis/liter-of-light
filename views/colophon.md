@@ -8,7 +8,7 @@ Copy is created in John Gruber's [Markdown][]. Layout and formatting uses the fa
 
 ### Services ###
 
-GamLight is hosted courtesy of [Heroku][]. All the original code is available to fork on [GitHub][]. Type is set using [Typekit][], mostly into the lovely Dagny Web Pro. 
+GamLight is hosted courtesy of [Heroku][]. All the original code is available to fork on [GitHub][]. Type is set using [Typekit][], mostly into the lovely FF Dagny Web Pro. 
 
 ### Hardware ###
 
