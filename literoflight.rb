@@ -20,7 +20,7 @@ get '/' do
 end
 
 get '/why' do
-  haml :why, :locals => { :text => markdown(:why), :title => "why | " }
+  haml :why, :locals => { :title => "why | " }
 end
 
 get '/gallery' do
