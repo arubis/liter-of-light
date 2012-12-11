@@ -1,6 +1,29 @@
-.container-fluid
-  .row
-    .span9.offset2
-      %p= markdown :why
+.container-fluid{:style => "margin-top: 60px;"}
+  .why-better
+    .row
+      .span6.offset2
+        %p= markdown :why
+      .span4
+        .hero-unit{:style => "padding: 20px;"}
+          %h1 Solar Bottle Bulbs are the <em>better</em> solution
+  
+    .row
+      .span3.offset1
+        %h1 Better than kerosene.
+        = markdown :'why/kerosene' 
+      .span3.offset1
+        %h1 Better than torchlights.
+        = markdown :'why/batteries'
+      .span3.offset1
+        %h1 Better than grid power.
+        = markdown :'why/grid'      
 
+    .row
+      .span6.offset2
+        %h1 They're just better.
+        %p
+          There's no question about it: Solar Bottle Bulbs are safer, cheaper,
+          cleaner, and often brighter than other available solutions. 
+
+// todo: add content about working hand-in-hand with solar, closing remarks
 // additional: add quotes! eg. "where do the batteries go?" "whoa, that's cool!"
