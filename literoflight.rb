@@ -31,9 +31,13 @@ get '/colophon' do
   haml :colophon, :locals => { :title => "colophon | " }
 end
 
-get '/bootstrap' do
-  haml :bootstrap, :layout => :layout_bootstrap
+get '/about' do
+  haml :about, :locals => { :title => "about | " }
 end
+
+# get '/bootstrap' do
+#   haml :bootstrap, :layout => :layout_bootstrap
+# end
 
 # get '/s3/*' do
 #   redirect 'https://(target server)/s3/' + params[:splat][0]
