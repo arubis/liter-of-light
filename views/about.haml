@@ -2,8 +2,25 @@
   .about
     .row
       .span8.offset2
-        = markdown :about
-        = markdown :'about/pa'
-        = markdown :'about/dylan'
-        = markdown :'about/contributors'
-        = markdown :'about/sponsors'
+        .about-summary= markdown :about
+
+    .row.who
+      .span4.offset2
+        .pa= markdown :'about/pa'
+      .span4
+        .dylan= markdown :'about/dylan'
+
+    .row
+      .span2.offset2
+        %h2 Sponsors
+
+    .row.sponsors
+      .span2.offset2
+        = markdown :'about/sponsors/mobse'
+      .span2 &nbsp;
+      .span2 &nbsp;
+      .span2 &nbsp;
+
+    .row
+      .span8.offset2
+        .contributors= markdown :'about/contributors'
