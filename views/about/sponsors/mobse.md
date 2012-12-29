@@ -1,4 +1,4 @@
-![Ministry of Basic and Secondary Education Logo][]
-The Ministry of Basic and Secondary Education, The Gambia.
+![MoBSE Logo][]
+Ministry of Basic and Secondary Education
 
-[Ministry of Basic and Secondary Education Logo]: /images/mobse_logo.png
+[MoBSE Logo]: /images/mobse_logo.png
