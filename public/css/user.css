@@ -135,3 +135,15 @@ h1.light {
 .text-overlay h1 {
   color: white;
 }
+
+/* line 102, ../../sass/user.sass */
+.about-summary h1, h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.1em;
+}
+
+/* line 106, ../../sass/user.sass */
+.sponsors p {
+  text-align: center;
+  font-size: smaller;
+}
