@@ -4,7 +4,7 @@ GamLight.org was lovingly crafted using only the finest ingredients.
 
 ### Software ###
 
-Copy is created in John Gruber's [Markdown][]. Layout and formatting uses the fantastic [Bootstrap][] framework. Content and formatting are married through [Haml][] and [Sass][], with [Compass][] negotiating between Boostrap's LESS backend and Sass's overwhelming extensibility. [Sinatra][] ties all the wires together and looks good while doing it. Code and copy alike pass through [Sublime Text][], with some copy originating in [WriteRoom][]. Photographs are managed using [Aperture][] with occasional touch-ups in [Pixelmator].
+Copy is created in John Gruber's [Markdown][]. Layout and formatting uses the fantastic [Bootstrap][] framework. Content and formatting are married through [Haml][] and [Sass][], with [Compass][] negotiating between Bootstrap's LESS backend and Sass's overwhelming extensibility. [Sinatra][] ties all the wires together and looks good while doing it. Code and copy alike pass through [Sublime Text][], with some copy originating in [WriteRoom][]. Photographs are managed using [Aperture][] with occasional touch-ups in [Pixelmator].
 
 ### Services ###
 
