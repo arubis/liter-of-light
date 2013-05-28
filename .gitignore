@@ -14,3 +14,7 @@ tmp/
 # project management
 subl
 subl/*
+
+# rvm management
+.rvmrc
+.ruby-gemset
