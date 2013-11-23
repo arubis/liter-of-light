@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Version="1.0" Creator="SCRMAC-2.3.1-20025">
+<ScrivenerProject Version="1.0" Creator="SCRMAC-2.5-25239" Modified="2013-10-24 10:46:02 -0600">
     <Binder>
-        <BinderItem ID="0" Type="DraftFolder" Created="2012-07-21 13:28:05 +0000" Modified="2012-07-21 13:28:05 +0000">
+        <BinderItem ID="0" Type="DraftFolder" Created="2012-07-21 07:28:05 -0600" Modified="2012-07-21 07:28:05 -0600">
             <Title>Draft</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -13,7 +13,7 @@
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem ID="3" Type="Text" Created="2012-07-21 13:28:05 +0000" Modified="2012-07-21 15:36:56 +0000">
+                <BinderItem ID="3" Type="Text" Created="2012-07-21 07:28:05 -0600" Modified="2012-07-21 09:36:56 -0600">
                     <Title>Solar Bottle Bulb Manual</Title>
                     <MetaData>
                         <StatusID>0</StatusID>
@@ -23,7 +23,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="6" Type="Text" Created="2012-07-21 15:37:04 +0000" Modified="2012-07-21 15:38:07 +0000">
+                        <BinderItem ID="6" Type="Text" Created="2012-07-21 09:37:04 -0600" Modified="2012-07-21 09:38:07 -0600">
                             <Title>Requirements</Title>
                             <MetaData>
                                 <StatusID>0</StatusID>
@@ -33,7 +33,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="8" Type="Text" Created="2012-07-21 15:37:30 +0000" Modified="2012-09-21 18:06:15 +0000">
+                        <BinderItem ID="8" Type="Text" Created="2012-07-21 09:37:30 -0600" Modified="2012-09-21 12:06:15 -0600">
                             <Title>Materials</Title>
                             <MetaData>
                                 <StatusID>0</StatusID>
@@ -43,7 +43,7 @@
                                 <TextSelection>305,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="9" Type="Text" Created="2012-07-21 15:37:34 +0000" Modified="2012-07-21 15:38:46 +0000">
+                        <BinderItem ID="9" Type="Text" Created="2012-07-21 09:37:34 -0600" Modified="2012-07-21 09:38:46 -0600">
                             <Title>Construction</Title>
                             <MetaData>
                                 <StatusID>0</StatusID>
@@ -53,7 +53,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="10" Type="Text" Created="2012-07-21 15:37:34 +0000" Modified="2012-07-21 15:38:47 +0000">
+                        <BinderItem ID="10" Type="Text" Created="2012-07-21 09:37:34 -0600" Modified="2012-07-21 09:38:47 -0600">
                             <Title>Installation</Title>
                             <MetaData>
                                 <StatusID>0</StatusID>
@@ -63,7 +63,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="11" Type="Text" Created="2012-07-21 15:37:58 +0000" Modified="2012-07-21 15:38:48 +0000">
+                        <BinderItem ID="11" Type="Text" Created="2012-07-21 09:37:58 -0600" Modified="2012-07-21 09:38:48 -0600">
                             <Title>Maintenance</Title>
                             <MetaData>
                                 <StatusID>0</StatusID>
@@ -75,7 +75,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="4" Type="Text" Created="2012-07-21 15:35:55 +0000" Modified="2012-07-21 15:36:57 +0000">
+                <BinderItem ID="4" Type="Text" Created="2012-07-21 09:35:55 -0600" Modified="2012-07-21 09:36:57 -0600">
                     <Title>About the Project</Title>
                     <MetaData>
                         <StatusID>0</StatusID>
@@ -85,7 +85,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="5" Type="Text" Created="2012-07-21 15:36:22 +0000" Modified="2012-07-21 15:42:11 +0000">
+                <BinderItem ID="5" Type="Text" Created="2012-07-21 09:36:22 -0600" Modified="2012-07-21 09:42:11 -0600">
                     <Title>Pitch</Title>
                     <MetaData>
                         <StatusID>0</StatusID>
@@ -95,7 +95,7 @@
                         <TextSelection>286,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="21" Type="Text" Created="2012-09-24 16:52:37 +0000" Modified="2012-09-28 11:46:18 +0000">
+                <BinderItem ID="21" Type="Text" Created="2012-09-24 10:52:37 -0600" Modified="2012-09-28 05:46:18 -0600">
                     <Title>Science!</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -105,7 +105,7 @@
                         <TextSelection>248,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="22" Type="Text" Created="2012-09-28 11:46:12 +0000" Modified="2012-09-28 11:48:58 +0000">
+                <BinderItem ID="22" Type="Text" Created="2012-09-28 05:46:12 -0600" Modified="2012-09-28 05:48:58 -0600">
                     <Title>About</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -115,7 +115,7 @@
                         <TextSelection>210,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="23" Type="Text" Created="2012-09-28 11:48:41 +0000" Modified="2012-09-28 11:49:47 +0000">
+                <BinderItem ID="23" Type="Text" Created="2012-09-28 05:48:41 -0600" Modified="2012-09-28 05:49:47 -0600">
                     <Title>Inspiration</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -125,7 +125,7 @@
                         <TextSelection>133,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="24" Type="Text" Created="2012-09-28 11:50:22 +0000" Modified="2012-09-28 11:52:25 +0000">
+                <BinderItem ID="24" Type="Text" Created="2012-09-28 05:50:22 -0600" Modified="2012-09-28 05:52:25 -0600">
                     <Title>On The Ground</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -135,7 +135,7 @@
                         <TextSelection>27,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="25" Type="Folder" Created="2012-11-02 11:30:30 +0000" Modified="2012-11-02 11:54:40 +0000">
+                <BinderItem ID="25" Type="Folder" Created="2012-11-02 05:30:30 -0600" Modified="2012-11-02 05:54:40 -0600">
                     <Title>Kembujeh</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -148,7 +148,7 @@
                         <SelectedSubdocumentIDs>32</SelectedSubdocumentIDs>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem ID="29" Type="Text" Created="2012-11-02 11:54:51 +0000" Modified="2012-11-02 11:55:55 +0000">
+                        <BinderItem ID="29" Type="Text" Created="2012-11-02 05:54:51 -0600" Modified="2012-11-02 05:55:55 -0600">
                             <Title>Main Text</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -158,7 +158,7 @@
                                 <TextSelection>589,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="30" Type="Text" Created="2012-11-02 11:54:54 +0000" Modified="2012-11-02 11:56:49 +0000">
+                        <BinderItem ID="30" Type="Text" Created="2012-11-02 05:54:54 -0600" Modified="2012-11-02 05:56:49 -0600">
                             <Title>Before</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -168,7 +168,7 @@
                                 <TextSelection>69,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="31" Type="Text" Created="2012-11-02 11:54:54 +0000" Modified="2012-11-02 11:57:36 +0000">
+                        <BinderItem ID="31" Type="Text" Created="2012-11-02 05:54:54 -0600" Modified="2012-11-02 05:57:36 -0600">
                             <Title>After</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -178,7 +178,7 @@
                                 <TextSelection>90,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="32" Type="Text" Created="2012-11-02 11:54:54 +0000" Modified="2012-11-02 11:57:36 +0000">
+                        <BinderItem ID="32" Type="Text" Created="2012-11-02 05:54:54 -0600" Modified="2012-11-02 05:57:36 -0600">
                             <Title>Full Classroom</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -192,13 +192,13 @@
                 </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem ID="1" Type="ResearchFolder" Created="2012-07-21 13:28:05 +0000" Modified="2012-07-21 13:28:05 +0000">
+        <BinderItem ID="1" Type="ResearchFolder" Created="2012-07-21 07:28:05 -0600" Modified="2012-07-21 07:28:05 -0600">
             <Title>Research</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="19" Type="PDF" Created="2012-01-13 16:20:00 +0000" Modified="2012-01-13 16:20:00 +0000">
+                <BinderItem ID="19" Type="PDF" Created="2012-01-13 09:20:00 -0700" Modified="2012-01-13 09:20:00 -0700">
                     <Title>How to build SBB - English</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -206,7 +206,7 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                 </BinderItem>
-                <BinderItem ID="20" Type="PDF" Created="2012-01-13 16:11:32 +0000" Modified="2012-01-13 16:11:32 +0000">
+                <BinderItem ID="20" Type="PDF" Created="2012-01-13 09:11:32 -0700" Modified="2012-01-13 09:11:32 -0700">
                     <Title>How-to-build-a-SOLAR-BOTTLE-BULB (instructables_Eng_Tag)</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -217,7 +217,7 @@
                         <CurrentPDFPage>0</CurrentPDFPage>
                     </MediaSettings>
                 </BinderItem>
-                <BinderItem ID="26" Type="Image" Created="2012-11-02 11:49:46 +0000" Modified="2012-11-02 11:49:46 +0000">
+                <BinderItem ID="26" Type="Image" Created="2012-11-02 05:49:46 -0600" Modified="2012-11-02 05:49:46 -0600">
                     <Title>kembujeh-after</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -231,7 +231,7 @@
                         <ImageScalesProportionally>No</ImageScalesProportionally>
                     </MediaSettings>
                 </BinderItem>
-                <BinderItem ID="27" Type="Image" Created="2012-11-02 11:50:19 +0000" Modified="2012-11-02 11:50:19 +0000">
+                <BinderItem ID="27" Type="Image" Created="2012-11-02 05:50:19 -0600" Modified="2012-11-02 05:50:19 -0600">
                     <Title>kembujeh-before</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -240,7 +240,7 @@
                         <ShowSynopsisImage>Yes</ShowSynopsisImage>
                     </MetaData>
                 </BinderItem>
-                <BinderItem ID="28" Type="Image" Created="2012-11-02 11:48:45 +0000" Modified="2012-11-02 11:48:45 +0000">
+                <BinderItem ID="28" Type="Image" Created="2012-11-02 05:48:45 -0600" Modified="2012-11-02 05:48:45 -0600">
                     <Title>kembujeh-classroom-full</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -251,13 +251,13 @@
                 </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem ID="2" Type="TrashFolder" Created="2012-07-21 13:28:05 +0000" Modified="2012-07-21 13:28:05 +0000">
+        <BinderItem ID="2" Type="TrashFolder" Created="2012-07-21 07:28:05 -0600" Modified="2012-07-21 07:28:05 -0600">
             <Title>Trash</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="7" Type="Text" Created="2012-07-21 15:37:23 +0000" Modified="2012-07-21 15:37:23 +0000">
+                <BinderItem ID="7" Type="Text" Created="2012-07-21 09:37:23 -0600" Modified="2012-07-21 09:37:23 -0600">
                     <Title>Untitled</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -267,7 +267,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="12" Type="Folder" Created="2012-07-21 15:40:10 +0000" Modified="2012-07-21 15:40:10 +0000">
+                <BinderItem ID="12" Type="Folder" Created="2012-07-21 09:40:10 -0600" Modified="2012-07-21 09:40:10 -0600">
                     <Title>why</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -277,7 +277,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="13" Type="Text" Created="2012-07-21 15:40:10 +0000" Modified="2012-07-21 15:40:10 +0000">
+                        <BinderItem ID="13" Type="Text" Created="2012-07-21 09:40:10 -0600" Modified="2012-07-21 09:40:10 -0600">
                             <Title>Why Use Solar Bottle Bulbs?</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -287,7 +287,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="14" Type="Text" Created="2012-07-21 15:40:10 +0000" Modified="2012-07-21 15:40:46 +0000">
+                                <BinderItem ID="14" Type="Text" Created="2012-07-21 09:40:10 -0600" Modified="2012-07-21 09:40:46 -0600">
                                     <Title>Kerosene</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -297,7 +297,7 @@
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="15" Type="Text" Created="2012-07-21 15:40:10 +0000" Modified="2012-07-21 15:40:10 +0000">
+                                <BinderItem ID="15" Type="Text" Created="2012-07-21 09:40:10 -0600" Modified="2012-07-21 09:40:10 -0600">
                                     <Title>Battery-Driven Torchlights/Flashlights</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -307,7 +307,7 @@
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="16" Type="Text" Created="2012-07-21 15:40:10 +0000" Modified="2012-07-21 15:40:10 +0000">
+                                <BinderItem ID="16" Type="Text" Created="2012-07-21 09:40:10 -0600" Modified="2012-07-21 09:40:10 -0600">
                                     <Title>Rural Grid Power</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -317,7 +317,7 @@
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="17" Type="Text" Created="2012-07-21 15:40:10 +0000" Modified="2012-07-21 15:40:10 +0000">
+                                <BinderItem ID="17" Type="Text" Created="2012-07-21 09:40:10 -0600" Modified="2012-07-21 09:40:10 -0600">
                                     <Title>Solar Lanterns / d.light</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -327,7 +327,7 @@
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="18" Type="Text" Created="2012-07-21 15:40:10 +0000" Modified="2012-07-21 15:40:10 +0000">
+                                <BinderItem ID="18" Type="Text" Created="2012-07-21 09:40:10 -0600" Modified="2012-07-21 09:40:10 -0600">
                                     <Title>Solar Bottle Bulbs</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -340,6 +340,16 @@
                             </Children>
                         </BinderItem>
                     </Children>
+                </BinderItem>
+                <BinderItem ID="33" Type="Text" Created="2013-03-06 04:30:52 -0700" Modified="2013-03-06 04:30:52 -0700">
+                    <Title>Untitled</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -374,9 +384,9 @@
         </StatusItems>
     </StatusSettings>
     <ProjectTargets Notify="No">
-        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-07-21 13:28:04 +0000" IgnoreDeadline="Yes">0</DraftTarget>
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-07-21 07:28:04 -0600" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2012-11-26 11:46:34 +0000"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2013-10-24 10:45:39 -0600"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
