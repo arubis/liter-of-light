@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "rack", '~>1.0'
+gem "rack", '~>2.0'
 # gem "rack-rewrite", '~>1.0.0'
 gem "thin"
 gem "sinatra"
