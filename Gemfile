@@ -7,7 +7,6 @@ gem "sinatra"
 gem "kramdown"
 gem "haml"
 gem "sass"
-gem 'heroku'
 gem 'compass'
 gem "bootstrap-sass"
 gem "foreman"

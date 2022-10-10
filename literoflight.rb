@@ -4,7 +4,7 @@ require 'haml'
 require 'kramdown'
 
 # configure
-set :haml, :format => :html5, :layout => true
+set :haml, :format => :html5, :layout => true, :escape_html => false
    # n.b. :layout => true renders haml docs through layout.haml if it exists
    # and can be redirected to another symbol for a different layout
    # or "false" for none
@@ -16,7 +16,7 @@ set :haml, :format => :html5, :layout => true
 #end
 
 get '/' do
-  haml :main, :locals => { :text => markdown(:main), :title => "" }
+  haml :main, :escape_html => false, :locals => { :text => markdown(:main), :title => "" }
 end
 
 get '/why' do
@@ -32,7 +32,7 @@ get '/colophon' do
 end
 
 get '/about' do
-  haml :about, :locals => { :title => "about | " }
+  haml :about, :escape_html => false, :locals => { :title => "about | " }
 end
 
 # get '/bootstrap' do
