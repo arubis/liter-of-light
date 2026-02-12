@@ -1,0 +1,21 @@
+name: RSOLV Security Scan
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  rsolv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: RSOLV-dev/RSOLV-action@v3
+        with:
+          rsolv-api-key: ${{ secrets.RSOLV_API_KEY }}
+          phases: "scan,validate,mitigate"
