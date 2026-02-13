@@ -17,5 +17,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: RSOLV-dev/RSOLV-action@v3
         with:
-          rsolv-api-key: ${{ secrets.RSOLV_API_KEY }}
-          phases: "scan,validate,mitigate"
+          rsolvApiKey: ${{ secrets.RSOLV_API_KEY }}
+          mode: full
